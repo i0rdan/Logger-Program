@@ -11,7 +11,6 @@ class Program
         ILogger[] arr = new ILogger[] {
             dbLogger,
             consoleLogger,
-            textFileLogger,
         };
 
         foreach (var item in arr)
